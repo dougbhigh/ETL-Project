@@ -11,7 +11,7 @@ CoRoT,Space,,,
 European Southern Observatory,Ground,"München, Oberbayern",48.2595829,11.6709547
 Fred Lawrence Whipple Observatory,Ground,"Santa Cruz County, Arizona",31.67513079999999,-110.9520111
 Gemini Observatory,Ground,"Hawaii, United States",19.823819,-155.4689039
-HATNet,Ground,,,
+HATNet,Ground,"United States, 08544",40.3430942,-74.65507389999999
 HATSouth,Ground,,,
 Haleakala Observatory,Ground,"United States, 96790",20.7081832,-156.2567542
 Haute-Provence Observatory,Ground,"France, 04870",43.9345695,5.710543299999999
@@ -32,7 +32,7 @@ Leoncito Astronomical Complex,Ground,,-31.7986161,-69.2956209
 Lick Observatory,Ground,"Santa Clara County, California",37.341413,-121.6429102
 MEarth Project,Ground,,,
 MOA,Ground,,,
-Mauna Kea Observatory,Ground,"Hawaii, United States",19.8208343,-155.468064
+Mauna Kea Observatory,Ground,"Hawaii, United States",19.8230355,-155.4694483
 McDonald Observatory,Ground,"Jeff Davis County, Texas",30.6798048,-104.0248334
 Multiple Facilities,Ground,,,
 Multiple Observatories,Ground,,34.2252867,-118.0572966
@@ -43,7 +43,7 @@ Palomar Observatory,Ground,"San Diego County, California",33.3563057,-116.864999
 Paranal Observatory,Ground,"Antofagasta, Antofagasta",-24.6273168,-70.4044968
 Parkes Observatory,Ground,"Parkes Shire Council, New South Wales",-32.9980473,148.2626028
 Qatar,Ground,,,
-Roque de los Muchachos Observatory,Ground,"Santa Cruz de Tenerife, Canarias",28.7572814,-17.8849643
+Roque de los Muchachos Observatory,Ground,"Canarias, Spain",28.7572814,-17.8849643
 Spitzer Space Telescope,Space,,,
 Subaru Telescope,Ground,"Hawaii County, Hawaii",19.7025722,-155.0902949
 SuperWASP,Ground,,,

@@ -2,6 +2,7 @@
 *  RUT-SOM-DATA-PT-06-2020-U-C                   Douglas High *
 *   >SETL-Challenge                           August 31, 2020 *
 *                    TABLE DEFINITION SQL                     *
+*  M1 10/2020- added habit_code and solar_flux to plamets.    *
 ***************************************************************
 */
 -- **  drop all tables  **--
@@ -25,6 +26,8 @@ CREATE TABLE "planets" (
     "density_e" float   NULL,
     "temp_c" int   NULL,
     "temp_f" int   NULL,
+    "habit_code" int   NOT NULL,
+    "solar_flux" float   NULL,
     "disc_facility" varchar(100)   NOT NULL,
     "disc_method" varchar(50)   NOT NULL,
     CONSTRAINT "pk_planets" PRIMARY KEY (
@@ -83,4 +86,3 @@ REFERENCES "stars" ("star");
 
 ALTER TABLE "planets" ADD CONSTRAINT "fk_planets_disc_facility" FOREIGN KEY("disc_facility")
 REFERENCES "facilities" ("name");
-

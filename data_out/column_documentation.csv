@@ -13,6 +13,7 @@ orb_period,Orbital Period [days],Time the planet takes to make a complete orbit 
 pl_radius_e,Planet Radius [Earth Radius],"Length of a line segment from the center of the planet to its surface, measured in units of radius of the Earth."
 pl_mass_e,Planet Mass or Mass*sin(i) [Earth Mass],
 pl_density,Planet Density [g/cm**3],Amount of mass per unit of volume of the planet.
+pl_insol,Insolation Flux [Earth Flux],Insolation flux is another way to give the equilibrium temperature. It's given in units relative to those measured for the Earth from the Sun.
 pl_temp_k,Equilibrium Temperature [K],Temperature of the planet as modeled by a black body heated only by its host star.
 st_type,spectral type,
 st_temp_k,Stellar Effective Temperature [K],Temperature of the star as modeled by a black body emitting the same total amount of electromagnetic radiation.
