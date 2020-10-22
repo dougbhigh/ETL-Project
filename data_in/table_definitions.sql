@@ -2,7 +2,8 @@
 *  RUT-SOM-DATA-PT-06-2020-U-C                   Douglas High *
 *   >SETL-Challenge                           August 31, 2020 *
 *                    TABLE DEFINITION SQL                     *
-*  M1 10/2020- added habit_code and solar_flux to planets.    *
+*  M1 10/2020 - added habit_code and solar_flux to planets.   *
+*  M2 10/2020 - added habzone and temp_class to planets.      *
 ***************************************************************
 */
 -- **  drop all tables  **--
@@ -24,10 +25,12 @@ CREATE TABLE "planets" (
     "circumference_m" int   NOT NULL,
     "mass_e" float   NULL,
     "density_e" float   NULL,
+    "solar_flux" float   NULL,
+    "habit_code" int   NOT NULL,
+    "habzone" int   NULL,
     "temp_c" int   NULL,
     "temp_f" int   NULL,
-    "habit_code" int   NOT NULL,
-    "solar_flux" float   NULL,
+    "temp_class" varchar(10)   NULL,
     "disc_facility" varchar(100)   NOT NULL,
     "disc_method" varchar(50)   NOT NULL,
     CONSTRAINT "pk_planets" PRIMARY KEY (
