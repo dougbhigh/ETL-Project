@@ -4,6 +4,7 @@
 *                    TABLE DEFINITION SQL                     *
 *  M1 10/2020 - added habit_code and solar_flux to planets.   *
 *  M2 10/2020 - added habzone and temp_class to planets.      *
+*              -added type to planets.                        *
 ***************************************************************
 */
 -- **  drop all tables  **--
@@ -31,6 +32,7 @@ CREATE TABLE "planets" (
     "temp_c" int   NULL,
     "temp_f" int   NULL,
     "temp_class" varchar(10)   NULL,
+    "planet_class" varchar(25)   NULL,
     "disc_facility" varchar(100)   NOT NULL,
     "disc_method" varchar(50)   NOT NULL,
     CONSTRAINT "pk_planets" PRIMARY KEY (
