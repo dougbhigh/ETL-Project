@@ -4,11 +4,12 @@
 *                    TABLE DEFINITION SQL                     *
 *  M1 10/2020 - added habit_code and solar_flux to planets.   *
 *  M2 10/2020 - added habzone and temp_class to planets.      *
-*              -added type to planets.                        *
+*             - added type to planets.                        *
+*  M3 10/2020 - added further_interest table                  *
 ***************************************************************
 */
 -- **  drop all tables  **--
-DROP TABLE IF EXISTS planets, stars, facilities, column_document, glossary;
+DROP TABLE IF EXISTS planets, stars, facilities, column_document, glossary, further_interest;
 
 -- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/z6TnK8
@@ -84,6 +85,14 @@ CREATE TABLE "glossary" (
     "value" varchar(50)   NULL,
     "description" varchar(200)   NOT NULL,
     "more_info" varchar(200)   NULL
+);
+
+CREATE TABLE "further_interest" (
+    "Cat" char(1)   NULL,
+    "Name" varchar(100)   NOT NULL,
+    "Duration" varchar(10)   NULL,
+    "Description" varchar(250)   NULL,
+    "Link" varchar(200)   NULL
 );
 
 ALTER TABLE "planets" ADD CONSTRAINT "fk_planets_host_star" FOREIGN KEY("host_star")
