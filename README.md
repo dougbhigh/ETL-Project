@@ -8,4 +8,4 @@ Gather and format data on exoplanets, create and load Postgres tables.
 
 Full documentation can be found in https://github.com/dougbhigh/ETL-Project/blob/master/ETL_Documentation.docx
 
-![alt text](https://github.com/dougbhigh/ETL-Project/blob/master/mages/planetary_db_ERD.png)
+![alt text](https://github.com/dougbhigh/ETL-Project/blob/master/images/planetary_db_ERD.png)
